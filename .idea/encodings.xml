@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/impv-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-boot/boot-demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-cloud" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-cloud/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-cloud/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-cloud/eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-cloud/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-cloud/eureka-server2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-cloud/eureka-server3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-crawler-jd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-db" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-job" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-spark" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-tspring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/impv-parent/impv-web" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

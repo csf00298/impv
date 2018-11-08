@@ -1,0 +1,25 @@
+#该服务节点的端口号
+server:
+  port: 7070
+
+#spring.application.name表示应用名称，集群名称需要一致
+spring:
+  application:
+    name: server-cloud-demo
+
+#defaultZone表示服务注册，例子中有三个server节点构成集群，每个节点指向其他两个节点 以此来实现相互通信
+eureka:
+  instance:
+    #instanceId 集群中该节点唯一的ID标识，如果不配置，多个节点最终只有一个能生效 可以选择随机数 instance_id:${random.value}
+    metadata-map:
+      instanceId: ${spring.application.name}:${spring.application.instance_id:001(master)}
+    hostname: peer1
+
+  client:
+      serviceUrl:
+        defaultZone: http://peer2:7072/eureka/,http://peer3:7073/eureka/
+      #registerWithEureka表示是否注册自身到eureka服务器，因为当前这个应用就是eureka服务器，没必要注册自身，所以这里是false。
+#      register-with-eureka: false
+      #fetchRegistry表示是否从eureka服务器获取注册信息，同上，这里不需要
+#      fetch-registry: false
+
