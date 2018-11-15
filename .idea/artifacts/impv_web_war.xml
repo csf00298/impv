@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="impv-web:war">
-    <output-path>$PROJECT_DIR$/impv-parent/impv-web/target</output-path>
-    <root id="archive" name="impv-web.war">
-      <element id="artifact" artifact-name="impv-web:war exploded" />
-    </root>
-  </artifact>
-</component>
