@@ -1,4 +1,4 @@
-package com.study.SuanFa;
+package com.study.SuanFa.msSuanfa;
 
 import java.util.Objects;
 
