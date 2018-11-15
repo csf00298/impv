@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="impv-tspring:war">
-    <output-path>$PROJECT_DIR$/impv-tspring/target</output-path>
-    <root id="archive" name="impv-tspring.war">
-      <element id="artifact" artifact-name="impv-tspring:war exploded" />
-    </root>
-  </artifact>
-</component>

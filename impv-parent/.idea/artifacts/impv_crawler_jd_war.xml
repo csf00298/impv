@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="impv-crawler-jd:war">
-    <output-path>$PROJECT_DIR$/impv-crawler-jd/target</output-path>
-    <root id="archive" name="impv-crawler-jd.war">
-      <element id="artifact" artifact-name="impv-crawler-jd:war exploded" />
-    </root>
-  </artifact>
-</component>
