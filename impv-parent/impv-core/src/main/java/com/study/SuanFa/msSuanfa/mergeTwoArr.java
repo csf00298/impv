@@ -12,8 +12,8 @@ import java.util.List;
 public class mergeTwoArr {
 
     public static void main(String[] args) {
-        List<Integer> l1 = Arrays.asList(1, 3, 5, 7, 8, 10);
-        List<Integer> l2 = Arrays.asList(2, 3, 4, 6, 18, 110);
+        List<Integer> l1 = Arrays.asList(1, 3, 5, 7, 8, 10,122,144);
+        List<Integer> l2 = Arrays.asList(2, 3, 4, 6, 18, 110,133);
         System.out.println(mergeArray(l1, l2));
     }
 

@@ -31,7 +31,6 @@ public class A20ValidParentheses {
                 list.add(c);
             else {
                 if (list.size() == 0) return false;
-                Character last = list.get(list.size() - 1);
                 if (c == ')' && c == '(') return false;
                 if (c == ']' && c == '[') return false;
                 if (c == '}' && c == '{') return false;
