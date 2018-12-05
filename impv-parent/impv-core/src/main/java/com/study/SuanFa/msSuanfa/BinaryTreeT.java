@@ -97,10 +97,12 @@ public class BinaryTreeT {
         }
     }
 
-    //层序遍历
+    /**
+     * 层序遍历
+     */
     public void levelOrder(BinaryTreeNode root) {
         BinaryTreeNode temp;
-        Queue<BinaryTreeNode> queue = new LinkedList<BinaryTreeNode>();
+        Queue<BinaryTreeNode> queue = new LinkedList<>();
         queue.offer(root);
         while (!queue.isEmpty()) {
             temp = queue.poll();
