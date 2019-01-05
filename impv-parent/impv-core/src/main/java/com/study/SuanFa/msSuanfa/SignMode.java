@@ -1,5 +1,8 @@
 package com.study.SuanFa.msSuanfa;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * 单例模式
  */
@@ -37,5 +40,14 @@ public class SignMode {
     }
     public SignMode getSignModeInner(){
         return SignModeInner.sign;
+    }
+
+
+    public static void main(String[] args) {
+        Map<String,String> map = new HashMap<>();
+        Object put = map.put("cn", "cd");
+        System.out.println(put.hashCode());
+
+
     }
 }

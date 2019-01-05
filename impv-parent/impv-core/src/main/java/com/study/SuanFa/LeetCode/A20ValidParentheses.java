@@ -31,9 +31,10 @@ public class A20ValidParentheses {
                 list.add(c);
             else {
                 if (list.size() == 0) return false;
-                if (c == ')' && c == '(') return false;
-                if (c == ']' && c == '[') return false;
-                if (c == '}' && c == '{') return false;
+                char last=list.get(list.size()-1);
+                if (c == ')' && last != '(') return false;
+                if (c == ']' && last != '[') return false;
+                if (c == '}' && last != '{') return false;
                 list.remove(list.size() - 1);
             }
         }
